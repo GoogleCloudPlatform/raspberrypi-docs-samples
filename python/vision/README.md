@@ -1,4 +1,4 @@
-## Speech sample
+## Vision sample
 
 This folder contains Python code that takes a picture from the attached
 Raspberry Pi camera and sends it to [Google Cloud
