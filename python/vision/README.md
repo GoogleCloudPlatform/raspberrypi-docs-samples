@@ -15,7 +15,11 @@ To use this sample, you'll need to have the following:
   variable `GOOGLE_APPLICATION_CREDENTIALS` to the key file.
 
 You need to install Python modules `picamera` and `pifacecad` to make the sample
-work, but it's easy to change it to take a picture from some other source, and
+work:
+```sh
+pip install picamera pifacecad
+```
+but it's easy to change the code to take a picture from some other source, and
 report a result in some other way without writing to an LCD screen, if you don't
 have one.
 

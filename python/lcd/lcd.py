@@ -15,6 +15,8 @@
 # limitations under the License.
 """
 Diplay a two line message on Raspberry Pi LCD display using PiFaceCAD.
+Useful for printing some debugging messages if your Pi is not connected
+to the monitor.
 Usage: python lcd.py line1 line2
 """
 
