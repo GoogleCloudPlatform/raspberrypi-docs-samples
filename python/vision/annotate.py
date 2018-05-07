@@ -24,7 +24,8 @@ Required hardware:
 - LCD screen http://www.piface.org.uk/products/piface_control_and_display/
 
 The script requires a service account key for the Google Cloud Vision API
-to be downloaded in JSON format and put in `keyfile.json` near the script.
+to be downloaded in JSON format. Point environment variable
+GOOGLE_APPLICATION_CREDENTIALS to that JSON key file.
 """
 
 import io
@@ -39,8 +40,6 @@ from google.cloud.vision import types
 
 # Configuration
 basedir = os.path.dirname(os.path.abspath(__file__))
-apikey = os.path.join(basedir, "keyfile.json")
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = apikey
 lcd_lines = 2
 pin_count = 5
 file_dir = os.path.join(basedir, "snap")

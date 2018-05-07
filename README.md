@@ -5,8 +5,10 @@
 This repository contains some scripts that show how various Google Cloud APIs
 can be used in Raspberry Pi to create cool things.
 
-Covered APIs:
-
-- [Vision](https://cloud.google.com/vision/)
-- [Speech-To-Text](https://cloud.google.com/speech-to-text/)
-- [Text-To-Speech](https://cloud.google.com/text-to-speech/docs/basics)
+Samples included:
+- [python/vision](./python/vision): Python code that uses 
+  [Google Cloud Vision](https://cloud.google.com/vision/) API.
+- [nodejs/speech](./nodejs/speech): Node.js code that uses
+  [Google Cloud Speech-To-Text](https://cloud.google.com/speech-to-text/)
+  and [Text-To-Speech](https://cloud.google.com/text-to-speech/docs/basics)
+  API.
