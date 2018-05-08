@@ -6,8 +6,8 @@ Vision](https://cloud.google.com/vision/) API for annotation.
 The result is printed on the LCD screen connected to your Raspberry Pi.
 
 To use this sample, you'll need to have the following:
-- Raspberry Pi with a
-  [RaspiCam](https://www.raspberrypi.org/products/camera-module-v2/)-compatible
+- Raspberry Pi with [Raspbian](https://en.wikipedia.org/wiki/Raspbian).
+- [RaspiCam](https://www.raspberrypi.org/products/camera-module-v2/)-compatible
   camera.
 - [PiFace](http://www.piface.org.uk/products/piface_control_and_display/)-compatible
   LCD screen.
